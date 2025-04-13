@@ -1,0 +1,37 @@
+body {
+    padding-top: 56px; /* Space for fixed navbar */
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.collapse-toggle {
+    cursor: pointer; /* Change cursor to pointer */
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+}
+
+.collapse-toggle:hover {
+    text-decoration: underline;
+}
+
+.product-card {
+    margin: 15px; /* Add margin around cards */
+}
+
+.product-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 1 / 1; /* Ensure square aspect ratio */
+}
