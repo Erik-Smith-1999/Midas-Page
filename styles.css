@@ -17,13 +17,13 @@ footer {
 }
 
 .collapse-toggle {
+  margin-left: 20px;
     cursor: pointer; /* Change cursor to pointer */
-    color: #007bff; /* Bootstrap primary color */
-    text-decoration: none;
+    color: black;
 }
 
 .collapse-toggle:hover {
-    text-decoration: underline;
+    color: #555;
 }
 
 .product-card {
